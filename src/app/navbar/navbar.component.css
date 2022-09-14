@@ -1,0 +1,7 @@
+.nav {
+  margin-bottom: 10px;
+}
+button:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
