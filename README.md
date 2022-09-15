@@ -1,5 +1,5 @@
 # Recipe book / Shopping list
-
+[Youtube Video]https://youtu.be/01rUtF1AYxY 
 #### My first project using angular. It’s very simple nothing fancy just to get a grasp of the main concepts
 I created to practice the following:  
 1.	Event binding 
