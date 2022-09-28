@@ -1,8 +1,4 @@
-<ul class="nav justify-content-lg-around align-content-stretch">
-  <li class="nav-item">
-    <button type="" class="nav-item btn btn-lg " (click)="toShopping()">Shopping list</button>
-  </li>
-  <li class="nav-item">
-    <button type="" class="nav-item btn btn-lg" (click)="toRecipe()">Recipe book</button>
-  </li>
+<ul class="nav nav-tabs justify-content-lg-around align-content-stretch">
+  <li routerLinkActive="my-active"><a routerLink="recipe">Recipe book</a></li>
+  <li routerLinkActive="my-active" [routerLinkActiveOptions]="{exact:true}"><a routerLink="">shopping list</a></li>
 </ul>

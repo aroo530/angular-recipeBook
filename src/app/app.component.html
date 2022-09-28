@@ -1,8 +1,3 @@
-<!-- <app-recipe></app-recipe> -->
 <app-navbar></app-navbar>
 
-<app-shopping-list *ngIf="isShopping() ; else recipe"></app-shopping-list>
-
-<ng-template #recipe>
-  <app-recipe-book></app-recipe-book>
-</ng-template>
+<router-outlet></router-outlet>

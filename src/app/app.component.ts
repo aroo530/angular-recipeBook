@@ -8,7 +8,4 @@ import { NavbarComponent } from './navbar/navbar.component';
 })
 export class AppComponent {
   title = 'project1';
-  isShopping() {
-    return NavbarComponent.isShopping();
-  }
 }
